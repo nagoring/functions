@@ -1,5 +1,6 @@
 {
   "name": "nagoring/php_functions",
+  "version": "1.1.1",
   "description":"my functions",
   "keywords":["php","functions"],
   "type":"library",
@@ -13,7 +14,8 @@
   ],
   "homepage": "https://nagoring.com/blog",
   "require":{
-    "php":">=5.3.9"
+    "php":">=5.3.9",
+    "nagoring/php_functions": "dev-master"
   },
   "autoload": {
     "files": ["functions.php"]
