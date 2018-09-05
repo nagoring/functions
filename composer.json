@@ -1,0 +1,21 @@
+{
+  "name": "nagoring/php_functions",
+  "description":"my functions",
+  "keywords":["php","functions"],
+  "type":"library",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Nagomi",
+      "email": "nagomi.github@gmail.com",
+      "homepage":"https://nagoring.com/blog"
+    }
+  ],
+  "homepage": "https://nagoring.com/blog",
+  "require":{
+    "php":">=5.3.9"
+  },
+  "autoload": {
+    "files": ["functions.php"]
+  }
+}
